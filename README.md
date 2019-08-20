@@ -1,14 +1,12 @@
          ___        ______     ____ _                 _  ___  
-        / \ \      / / ___|   / ___| | ___  _   _  __| |/ _ \ 
-       / _ \ \ /\ / /\___ \  | |   | |/ _ \| | | |/ _` | (_) |
-      / ___ \ V  V /  ___) | | |___| | (_) | |_| | (_| |\__, |
-     /_/   \_\_/\_/  |____/   \____|_|\___/ \__,_|\__,_|  /_/ 
- ----------------------------------------------------------------- 
+      
 
+##challenge is to write some tests for the Drink About game.
 
-Hi there! Welcome to AWS Cloud9!
-
-To get started, create some files, play with the terminal,
-or visit https://docs.aws.amazon.com/console/cloud9/ for our documentation.
-
-Happy coding!
+Drink About is a simple function that will check the age and return a drink appropriate for your age. Create a function called whatCanIDrink. This function should take in age as parameter. The function should do the following:
+If the age is less than 0, then it should return "Sorry. I can’t tell what drink because that age is incorrect!"
+If the age is less than 14, then it should return "Drink Toddy"
+If the age is less than 18, then it should return "Drink Coke"
+If the age is less than 21, then it should return "Drink Beer"
+If the age is less than 130, then it should return "Drink Whisky"
+Else return "Sorry. I can’t tell what drink because that age is incorrect!"
