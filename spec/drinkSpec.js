@@ -17,7 +17,7 @@ describe("My whatCanIDrink function", function() {
         it("should return drink toddy when called as whatCanIDrink(13)", function() {
             var result = whatCanIDrink(13)
             expect(result).toBe("Drink Toddy");
-            expect(result).toBe("Drink Fanta");
+            
         });
 
         it("should return drink coke when called as whatCanIDrink(17)", function() {
